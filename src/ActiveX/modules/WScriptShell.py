@@ -157,3 +157,7 @@ def valueOf(self):
 
 def toString(self):
     return "Windows Script Host"
+
+def ScriptFullName(self,):
+    log.ThugLogging.add_behavior_warn("[WScript.Shell ActiveX] ScriptFullName")
+    return "C:\\Temp\\4.jse"
